@@ -1,0 +1,67 @@
+/* Resetting some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #0f0f0f;
+  color: #e0e0e0;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.hero {
+  background: linear-gradient(to right, #2d2d2d, #0f0f0f);
+  padding: 50px 20px;
+}
+
+.hero h1 {
+  font-size: 3em;
+  color: #00ffff;
+}
+
+.hero p {
+  font-size: 1.5em;
+  color: #ff00ff;
+}
+
+.cta-button {
+  background-color: #00ffff;
+  color: #0f0f0f;
+  padding: 10px 20px;
+  margin-top: 20px;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.about, .music, .social, .contact {
+  padding: 40px 20px;
+}
+
+h2 {
+  font-size: 2em;
+  color: #ff00ff;
+  margin-bottom: 20px;
+}
+
+.platform-links a, .social-links a {
+  display: inline-block;
+  margin: 10px;
+  color: #00ffff;
+  text-decoration: none;
+}
+
+.platform-links a:hover, .social-links a:hover {
+  color: #ff00ff;
+}
+
+.footer {
+  background-color: #1f1f1f;
+  color: #a0a0a0;
+  padding: 20px;
+  font-size: 0.9em;
+}
