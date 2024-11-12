@@ -14,8 +14,22 @@ body {
 }
 
 .hero {
-  background: linear-gradient(to right, #2d2d2d, #0f0f0f);
-  padding: 50px 20px;
+  background-image: url('images/banner.jpg'); /* Path to the banner image */
+  background-size: cover; /* Ensures the image covers the whole section */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  height: 100vh; /* Makes the hero section full-screen height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e0e0e0;
+  text-align: center;
+}
+
+.hero-content {
+  background-color: rgba(15, 15, 15, 0.7); /* Optional overlay for text readability */
+  padding: 20px;
+  border-radius: 5px;
 }
 
 .hero h1 {
