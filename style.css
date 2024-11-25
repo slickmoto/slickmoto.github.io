@@ -123,3 +123,32 @@ h2 {
   font-size: 0.9em;
   margin-top: 40px;
 }
+
+.album-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.album-item {
+  text-align: center;
+}
+
+.album-item img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.album-item img:hover {
+  transform: scale(1.05); /* Slight zoom effect */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+}
+
+.album-item p {
+  margin-top: 10px;
+  font-size: 1em;
+  color: #e0e0e0;
+}
