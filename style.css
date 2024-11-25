@@ -115,18 +115,10 @@ h2 {
   color: #e0e0e0;
 }
 
-/* Footer */
-.footer {
-  background-color: #1f1f1f;
-  color: #a0a0a0;
-  padding: 20px;
-  font-size: 0.9em;
-  margin-top: 40px;
-}
-
+/* Albums Section */
 .album-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive grid layout */
   gap: 20px;
   justify-items: center;
 }
@@ -136,7 +128,9 @@ h2 {
 }
 
 .album-item img {
-  max-width: 100%;
+  width: 100%; /* Scales to fit the container */
+  max-width: 300px; /* Sets a maximum size */
+  height: auto; /* Maintains aspect ratio */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -144,11 +138,25 @@ h2 {
 
 .album-item img:hover {
   transform: scale(1.05); /* Slight zoom effect */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7); /* Increases shadow on hover */
 }
 
 .album-item p {
   margin-top: 10px;
   font-size: 1em;
   color: #e0e0e0;
+}
+
+.album-item p:last-child {
+  font-size: 0.9em;
+  color: #ff00ff; /* Highlight for "Coming Soon" text */
+}
+
+/* Footer */
+.footer {
+  background-color: #1f1f1f;
+  color: #a0a0a0;
+  padding: 20px;
+  font-size: 0.9em;
+  margin-top: 40px;
 }
