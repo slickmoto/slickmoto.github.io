@@ -59,8 +59,13 @@ body {
 }
 
 /* Section Styles */
-.about, .music, .social, .contact, .albums {
+.about, .music, .social, .contact {
   padding: 40px 20px;
+}
+
+.albums {
+  padding: 40px 20px;
+  background-color: #1a1a1a; /* Matches the Gallery section background */
 }
 
 h2 {
