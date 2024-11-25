@@ -165,3 +165,50 @@ h2 {
   font-size: 0.9em;
   margin-top: 40px;
 }
+
+.newsletter {
+  padding: 40px 20px;
+  background-color: #1a1a1a; /* Slightly lighter grey for separation */
+  text-align: center;
+}
+
+.newsletter h2 {
+  font-size: 2em;
+  color: #ff00ff;
+  margin-bottom: 20px;
+}
+
+.newsletter p {
+  margin-bottom: 20px;
+  color: #e0e0e0;
+}
+
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.newsletter-form input[type="email"] {
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+  border: none;
+  border-radius: 5px;
+}
+
+.newsletter-form button {
+  background-color: #00ffff;
+  color: #0f0f0f;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.newsletter-form button:hover {
+  background-color: #ff00ff;
+  color: #0f0f0f;
+}
