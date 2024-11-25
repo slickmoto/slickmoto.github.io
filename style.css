@@ -65,7 +65,7 @@ body {
 
 .albums {
   padding: 40px 20px;
-  background-color: #1a1a1a; /* Matches the Gallery section background */
+  background-color: #1a1a1a; /* Slightly lighter for visual contrast */
 }
 
 h2 {
@@ -88,7 +88,7 @@ h2 {
 /* Gallery Section */
 .gallery {
   padding: 40px 20px;
-  background-color: #1a1a1a; /* Slightly lighter than the body background for contrast */
+  background-color: #0f0f0f; /* Matches the background of About, Social, and other sections */
 }
 
 .gallery-grid {
