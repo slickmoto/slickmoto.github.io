@@ -251,3 +251,23 @@ h2 {
   background-color: #ff00ff;
   color: #0f0f0f;
 }
+
+/* Newsletter Section */
+.newsletter {
+  padding: 40px 20px;
+  background-color: #1a1a1a; /* Matches the Albums section for distinction */
+  text-align: center;
+  color: #e0e0e0;
+}
+
+.newsletter h2 {
+  font-size: 2em;
+  color: #ff00ff;
+  margin-bottom: 20px;
+}
+
+.newsletter p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color: #e0e0e0;
+}
