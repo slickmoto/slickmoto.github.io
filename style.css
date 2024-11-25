@@ -212,3 +212,42 @@ h2 {
   background-color: #ff00ff;
   color: #0f0f0f;
 }
+
+.thank-you {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #1a1a1a; /* Slightly lighter grey */
+  color: #e0e0e0;
+}
+
+.thank-you h1 {
+  font-size: 2.5em;
+  color: #00ffff;
+  margin-bottom: 20px;
+}
+
+.thank-you p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.cta-button {
+  background-color: #00ffff;
+  color: #0f0f0f;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cta-button:hover {
+  background-color: #ff00ff;
+  color: #0f0f0f;
+}
